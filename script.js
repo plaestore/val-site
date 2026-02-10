@@ -55,7 +55,7 @@ yesBtn.style.transformOrigin = "center center";
 yesBtn.style.transition = "transform 0.3s ease";
 
  noBtn.addEventListener("click", () => {
-   yesScale += 2;
+   yesScale += 1;
 
     if (yesBtn.style.position !== "fixed") {
         yesBtn.style.position = "fixed";
